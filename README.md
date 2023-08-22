@@ -8,10 +8,14 @@
 - _p01_HolaMundo
 - _p02_AreaCirculo
 - _p03_AreaTriangulo
+- _p04_PagaTrabajador
 
 ## Actividad 2
-- Programa 1
-- Programa 2
+- _p05_OperacionesMatematicas
+- _p06_PromedioCalificaciones
+- _p07_OperacionesAsignacion
+- _p08_FuncionesTrigonometricas
+- _p09_DividirCifras
  
  # Actividad 3 
  - Programa 1
