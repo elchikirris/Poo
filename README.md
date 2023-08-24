@@ -17,7 +17,7 @@
 - _p08_FuncionesTrigonometricas
 - _p09_DividirCifras
  
- # Actividad 3 
+ # Practica 1
 - _p10_HipotenusaTriangulo 
 - _p11_CalcularAngulo
 - _p12_ConvertirTemperatura
