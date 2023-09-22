@@ -1,7 +1,7 @@
 // Suma de numeros 
 // Edgar Israel Nieves Bautista
 // 18 de septiembre del 2023
-
+// Actividad 11
 import java.util.Scanner;
 
 public class _p67_SumaRango {

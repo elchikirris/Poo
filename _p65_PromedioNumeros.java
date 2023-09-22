@@ -1,4 +1,6 @@
 // Calcular el promedio de 3 numeros, usando una funcion 
+// Edgar Israel Nieves Bautista 
+// Actividad 11
 import java.util.Scanner;
 public class _p65_PromedioNumeros {
 
