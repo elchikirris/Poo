@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class _p63_SumaTerminos1 {
+public class _p63_SumaTerminos {
     public static void main(String[] args) {
         int num;
         float div, suma;

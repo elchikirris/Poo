@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class _p61_SecuenciaNumeros1 {
+public class _p61_SecuenciaNumeros {
     public static void main(String[] args) {
         int num;
         char resp;
