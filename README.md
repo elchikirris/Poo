@@ -111,3 +111,14 @@
 - _p73_Factorial
 - _p74_CuadroCaracter
 
+# Practica 5
+- _p75_NumeroMenor
+- _p76_DiaSemana
+- _p77_MediasLong
+- _p78_SumaMultiplos
+- _p79_Angulo
+
+
+
+
+
