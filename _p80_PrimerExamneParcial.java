@@ -3,7 +3,7 @@ public class _p80_PrimerExamneParcial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("¿Cuántos participantes desea agregar?");
+        System.out.println("¿Cuántos participantes desea agregar?= ");
         int numParticipantes = scanner.nextInt();
         scanner.nextLine(); 
 
@@ -24,10 +24,10 @@ public class _p80_PrimerExamneParcial {
                 continue;
             }
             
-            System.out.println("Ingrese el sexo de " + nombre + " (M/F): ");
+            System.out.println("Ingrese el sexo de " + nombre + " (M/F): !Solo mayusculas");
             char sexo = scanner.nextLine().charAt(0);
             
-            System.out.println("Ingrese el tipo de participante de " + nombre + " (Alumno/Docente/Trabajador): ");
+            System.out.println("Ingrese el tipo de participante de " + nombre + " (alumno/docente/trabajador): !SOLO MINUSCULAS = ");
             String tipoParticipante = scanner.nextLine();
 
             totalParticipantes++;
