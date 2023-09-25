@@ -118,6 +118,9 @@
 - _p78_SumaMultiplos
 - _p79_Angulo
 
+# Examen parcial 1
+_p80_PrimerExamenParcial
+
 
 
 
