@@ -1,3 +1,6 @@
+// Hacer un progrma que te calcule el mayor y menor 
+// Edgar Israel Nieves Bautista
+
 import java.util.Scanner;
 public class _p92_MayorMenor {
     public static void main(String[] args) {
