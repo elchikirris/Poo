@@ -151,6 +151,14 @@
 - _p99_Rectangulo
 - _p100_Articulo
 
+# Actividad 16
+- _p101_TrabajoPersona
+- _p102_AutorLibro
+- _p103_ClienteFactura
+
+# Actividad 17
+
+
 
 
 
