@@ -1,6 +1,6 @@
 package _p107_Forma;
 
-public class Circulo extends Forma {
+public class Circulo extends Forma{
     private double Radio;
 
     public Circulo(String color, double radio) {
@@ -18,7 +18,7 @@ public class Circulo extends Forma {
 
     @Override
     public double getArea() {
-        // TODO Auto-generated method stub
+
         return Math.PI * Math.pow(Radio, 2);
     }
 
@@ -26,6 +26,4 @@ public class Circulo extends Forma {
     public String toString() {
         return "Circulo ["+ super.toString() + ", Radio=" + Radio + "]";
     }
-    
-    
 }

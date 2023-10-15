@@ -1,15 +1,12 @@
 package _p107_Forma;
 
-public class Triangulo extends Forma {
+public class Triangulo extends Forma{
     private double Base;
-    private double Alrura;
-    public Triangulo(String color) {
-        super(color);
-    }
-    public Triangulo(String color, double base, double alrura) {
+    private double Altura;
+    public Triangulo(String color, double base, double atura) {
         super(color);
         Base = base;
-        Alrura = alrura;
+        Altura = atura;
     }
     public double getBase() {
         return Base;
@@ -17,21 +14,21 @@ public class Triangulo extends Forma {
     public void setBase(double base) {
         Base = base;
     }
-    public double getAlrura() {
-        return Alrura;
+    public double getAtura() {
+        return Altura;
     }
-    public void setAlrura(double alrura) {
-        Alrura = alrura;
+    public void setAtura(double atura) {
+        Altura = atura;
     }
     @Override
     public double getArea() {
-        // TODO Auto-generated method stub
-        return (Base * Alrura)/ 2;
-        
+        return (Base * Altura) / 2;
     }
     @Override
     public String toString() {
-        return "Triangulo ["+ super.toString()+ "Base=" + Base + ", Alrura=" + Alrura + "]";
+        return "Triangulo [" + super.toString() + ", Base=" + Base + ", Altura=" + Altura + "]";
     }
+
+    
     
 }

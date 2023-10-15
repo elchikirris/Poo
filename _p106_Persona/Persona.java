@@ -3,12 +3,12 @@ package _p106_Persona;
 public class Persona {
     protected String Nombre;
     protected String Direccion;
+    
     public Persona() {
     }
-    
-    public Persona(String nombre, String direccion) {
+    public Persona(String nombre, String dirección) {
         Nombre = nombre;
-        Direccion = direccion;
+        Direccion = dirección;
     }
     public String getNombre() {
         return Nombre;
@@ -16,15 +16,17 @@ public class Persona {
     public void setNombre(String nombre) {
         Nombre = nombre;
     }
-    public String getDireccion() {
+    public String getDirección() {
         return Direccion;
     }
-    public void setDireccion(String direccion) {
-        Direccion = direccion;
+    public void setDirección(String dirección) {
+        Direccion = dirección;
     }
     @Override
     public String toString() {
-        return "Persona [Nombre=" + Nombre + ", Direccion=" + Direccion + "]";
+        return "Persona [Nombre=" + Nombre + ", Dirección=" + Direccion + "]";
     }
+
+    
     
 }

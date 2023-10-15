@@ -1,13 +1,15 @@
 package _p107_Forma;
-// Esta clase es el prototipo, solo se puede heredar
+
+// ESta clase es el prototipo , sólo se podrá hederar
 public abstract class Forma {
     private String Color;
 
-
+    // contructor
     public Forma(String color) {
         Color = color;
     }
 
+    // getters y setters
     public String getColor() {
         return Color;
     }
@@ -15,11 +17,15 @@ public abstract class Forma {
     public void setColor(String color) {
         Color = color;
     }
+
+    // Crear método abstracto
     public abstract double getArea();
 
     @Override
     public String toString() {
         return "Forma [Color=" + Color + "]";
-    } 
-      
+    }
+
+    
+    
 }
