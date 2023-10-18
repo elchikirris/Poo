@@ -18,7 +18,7 @@ public class App {
 
         System.out.println("Todas las formas : ");
         for (Forma forma : formas) {
-            System.out.println(forma);
+            System.out.println(forma); 
         }
         
         System.out.println("\nCalculando áreas y perímetros de las figuras : ");
