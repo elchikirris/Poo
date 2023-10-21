@@ -3,12 +3,15 @@ package _p112_ControlVentas;
 public class VentaContado extends Venta {
     private double Descuento;
     private String Regalo;
-    // Generamos los constructores
+    // Generamos los constructores 
 
-    public VentaContado(String articulo, int cantidad, double precio, double total, double descuento, String regalo) {
-        super(articulo, cantidad, precio, total);
+    public VentaContado(String articulo, int cantidad, double precio, double descuento, String regalo) {
+        super(articulo, cantidad, precio);
         Descuento = descuento;
         Regalo = regalo;
+    }
+    public VentaContado(String articulo, int cantidad, double precio) {
+        super(articulo, cantidad, precio);
     }
     // Getters and seters
 
@@ -34,8 +37,9 @@ public class VentaContado extends Venta {
 
     @Override
     public String toString() {
-        return "VentaContado [Descuento=" + Descuento + ", Regalo=" + Regalo + "Total= "+ getTotalVenta() + "]";
+        return "VentaContado [Articulo=" + super.getArticulo() + ", Cantidad=" + super.getCantidad() + ", Precio=" + super.getPrecio() + "Descuento=" + Descuento + ", Regalo=" + Regalo + ", Total=" + getTotalVenta() + "]";
     }
+
     
     
     

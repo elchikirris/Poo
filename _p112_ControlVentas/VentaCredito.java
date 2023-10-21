@@ -4,10 +4,14 @@ public class VentaCredito extends Venta {
     private int Meses;
     private double Interes;
 
-    // Creamos los constructores
+    // Creamos los constructores  
+    public VentaCredito(String articulo, int cantidad, double precio) {
+        super(articulo, cantidad, precio);
+    }
 
-    public VentaCredito(String articulo, int cantidad, double precio, double total, int meses, double interes) {
-        super(articulo, cantidad, precio, total);
+
+    public VentaCredito(String articulo, int cantidad, double precio, int meses, double interes) {
+        super(articulo, cantidad, precio);
         Meses = meses;
         Interes = interes;
     }

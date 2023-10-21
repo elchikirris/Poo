@@ -4,12 +4,12 @@ public abstract class Venta {
     private String Articulo;
     private int Cantidad;
     private double Precio;
-    private double Total;
-    public Venta(String articulo, int cantidad, double precio, double total) {
+    
+    public Venta(String articulo, int cantidad, double precio) {
         Articulo = articulo;
         Cantidad = cantidad;
         Precio = precio;
-        Total = total;
+        
     }
     // generamos los getters and setters
 
@@ -31,21 +31,16 @@ public abstract class Venta {
     public void setPrecio(double precio) {
         Precio = precio;
     }
-    public double getTotal() {
-        return Total;
-    }
-    public void setTotal(double total) {
-        Total = total;
-    }
+   
 
     // El metodo abstracto para eredarlo a las otras ventas creeeooooo
 
     public abstract double getTotalVenta();
-    // Generamos el metodo to string
+    // Generamos el metodo to string 
     @Override
     public String toString() {
-        return "Venta [Articulo=" + Articulo + ", Cantidad=" + Cantidad + ", Precio=" + Precio + ", Total=" + Total
-                + "]";
+        return "Venta [Articulo=" + Articulo + ", Cantidad=" + Cantidad + ", Precio=" + Precio + 
+                 "]";
     }
     
     
