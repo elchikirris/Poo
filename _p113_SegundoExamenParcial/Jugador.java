@@ -33,7 +33,7 @@ public abstract class Jugador {
         Salario = salario;
     }
     public abstract double getBono();
-    public abstract double getTotal();
+    
 
     // Ponemos el constructor, menos del "Total"
     public Jugador(String nombre, char sexo, String descripcion, double salario) {

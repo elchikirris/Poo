@@ -45,7 +45,7 @@ public class Equipo {
     // Calculamos el total bono de todos los jugadores
 
     public double getTotalBono() {
-        double totalBono = 0.0;
+        double totalBono = 0;
         for (Jugador jugadores : Jugadores) {
             totalBono += jugadores.getBono();
         }
@@ -56,7 +56,7 @@ public class Equipo {
     public double getTotal() {
         double totalSalarios = 0.0;
         for (Jugador jugadores : Jugadores) {
-            totalSalarios += jugadores.getTotal();
+            totalSalarios += jugadores.Total;
         }
         return totalSalarios;
     }

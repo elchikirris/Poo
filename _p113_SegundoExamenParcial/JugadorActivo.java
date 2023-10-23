@@ -9,6 +9,7 @@ public class JugadorActivo extends Jugador {
         super(nombre, sexo, descripcion, salario);
         Partidos = partidos;
         Goles = goles;
+        Total=  super.getSalario() + getBono();
     }
 
     // Creamos lo getters and setters
@@ -31,11 +32,7 @@ public class JugadorActivo extends Jugador {
         return bono;
     }
 
-     // Sacamos el total
-     public double getTotal(){
-        double total= super.getSalario() + getBono();
-        return total;
-    }
+    
 
     // Metodo t0String
     @Override

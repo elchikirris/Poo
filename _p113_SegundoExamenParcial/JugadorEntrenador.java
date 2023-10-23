@@ -10,7 +10,7 @@ public class JugadorEntrenador extends Jugador{
         super(nombre, sexo, descripcion, salario);
         Subordinado = subordinado;
         Proyectos = proyectos;
-        
+        Total=super.getSalario() + getBono();
     }
 
     // Generamos los getters and setters
@@ -37,11 +37,7 @@ public class JugadorEntrenador extends Jugador{
         return bono;
     }
     
-    // Sacamos el total
-    public double getTotal(){
-        double total= super.getSalario() + getBono();
-        return total;
-    }
+   
 
     // Implementamos el metodo to string con los datos del jugador 
     @Override
