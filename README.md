@@ -177,5 +177,16 @@
 # Practica 10
 - _p112_ControlVentas
 
+# Segundo Examen Parcial 
+- _p113_SegundoExamenParcial
 
+# Actividad 20
+- _p114_Animal
+- _p115_Telefono
+- _p116_Juego
+- _p117_FiguraGeometrica
+
+# Actividad 21
+- _p118_Calculadora
+- _p119_Organismo
 
