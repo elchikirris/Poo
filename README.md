@@ -194,3 +194,11 @@
 - _p120_Vehiculo
 
 # Acticidad 22
+- _p121_Excepcion1
+- _p122_Excepcion2
+- _p123_Excepcion3
+- _p124_Excepcion4
+- _p125_Excepcion5
+- _p126_Excepcion6
+- _p127_MiExcepcion
+
