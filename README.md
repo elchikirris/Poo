@@ -219,3 +219,8 @@
 - _p137_ArchivoMunicipios
 - _p138_ArchivoMaterias
 - _p139_ArchivoEstudiante
+
+# Actividad 24
+- _p140_HolaMundoGUI
+- _p141_AreaTrianguloGUI
+- _p142_LeyDeNewtonGUI
