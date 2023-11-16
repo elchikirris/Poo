@@ -6,7 +6,7 @@ public class Jugador {
     private char Sexo;
     private String EstadoCivil;
     private String Descripcion;
-    private double Salario;
+    private double Salario; 
 
     // contructor vacío
     public Jugador() {

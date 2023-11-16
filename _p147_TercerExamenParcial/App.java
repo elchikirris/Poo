@@ -6,7 +6,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.File;
+import java.io.File;  
 
 public class App extends JFrame implements ActionListener{
     ArrayList<Jugador> datos;

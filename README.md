@@ -227,3 +227,8 @@
 
 # Actividad 
 - _p145_EstudianteGUI_V1
+
+
+
+# Tercer Examen Parcial
+- _p147_TercerExamenParcial
