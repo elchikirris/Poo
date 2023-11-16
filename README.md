@@ -225,6 +225,10 @@
 - _p141_AreaTrianguloGUI
 - _p142_LeyDeNewtonGUI
 
+# Practica 14 
+_p143_PagaTrabajador
+_p144_Temperaturas
+
 # Actividad 25
 - _p145_EstudianteGUI_V1
 
