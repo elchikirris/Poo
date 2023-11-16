@@ -225,7 +225,7 @@
 - _p141_AreaTrianguloGUI
 - _p142_LeyDeNewtonGUI
 
-# Actividad 
+# Actividad 25
 - _p145_EstudianteGUI_V1
 
 
