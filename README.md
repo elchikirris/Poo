@@ -228,6 +228,9 @@
 # Actividad 25
 - _p145_EstudianteGUI_V1
 
+# Actividad 26
+- _p146_HolaMundoGUI_V2
+
 
 
 # Tercer Examen Parcial
